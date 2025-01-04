@@ -12,7 +12,7 @@ public static void verdepartamentos() {
 	
 	 try
 		 {
-		  System.out.println ("NUM  NOMBRE        ESPECIALIDAD ");
+		  System.out.println ("NUM  NOMBRE        ESPECIALIDAD");
 	      System.out.println ("-------------------------------------");
 		 Class.forName("org.sqlite.JDBC");
 		  Connection conexion = DriverManager.getConnection ("jdbc:sqlite:ejemplo.db ");   
