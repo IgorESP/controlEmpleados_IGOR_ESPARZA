@@ -15,7 +15,7 @@ public static void verdepartamentos() {
 		  System.out.println ("NUM  NOMBRE        ESPECIALIDAD ");
 	      System.out.println ("-------------------------------------");
 		 Class.forName("org.sqlite.JDBC");
-		  Connection conexion = DriverManager.getConnection ("jdbc:sqlite:ejemplo.db");   
+		  Connection conexion = DriverManager.getConnection ("jdbc:sqlite:ejemplo.db ");   
 				   
 		 // Preparamos la consulta
 		   Statement sentencia = conexion.createStatement();
